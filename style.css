@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background:  radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% ); /* Gradient background */
+    margin: 0; /* Remove default margin */
+    color: #fff; /* White text color */
+}
+
+#container {
+    width: 450px; /* Fixed width */
+    padding: 20px; /* Inner padding */
+    background: #021526; /* Dark background */
+    box-shadow: 0 0 10px rgba(205, 175, 175, 0.5); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    text-align: center; /* Center heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+input, button {
+    width: 80%; /* 80% width of the container */
+    text-align: center;
+    padding: 10px; /* Inner padding */
+    margin: 10px auto; /* Center input fields */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    color: #0a0a0a; /* Input text color */
+    display: block; /* Ensures each element takes full width */
+}
+
+input {
+    margin-right: 170px;
+    width: 100%; /* Increase the width to 90% of the container *
+    padding: 15px; /* Increase the inner padding for a bigger field */
+    margin: 10px auto; /* Keep centered */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    color: #0a0a0a; /* Input text color */
+    background-color: #E2E2B6; /* Input background color */
+    display: block; /* Ensures each element takes full width */
+}
+button {
+    background-color: #6EACDA; /* Button background color */
+    transition: .2s linear; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #03346E; /* Darker background on hover */
+}
+
+p {
+    text-align: center; /* Center paragraph text */
+    margin-top: 15px; /* Space above */
+}
+
+p a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+p a:hover {
+    color: #E2E2B6; /* Change link color on hover */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Vertical margin */
+    background-color: #333; /* Dark table background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+th, td {
+    border: 1px solid #555; /* Cell border */
+    padding: 10px; /* Inner padding */
+    text-align: left; /* Left align text */
+    color: #fff; /* Cell text color */
+}
+
+th {
+    background-color: #555; /* Header background color */
+}
+
+#container {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column arrangement */
+    align-items: center; /* Center items */
+    justify-content: center; /* Center items */
+    min-height: 10vh; /* Minimum height */
+}
+
+#register, #login {
+    display: none; /* Hide sections by default */
+}
+
+#register.active, #login.active {
+    display: block; /* Show active section */
+}
